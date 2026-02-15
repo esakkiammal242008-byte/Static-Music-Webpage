@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+}
+.container{
+    background-color: rgb(182, 120, 120);
+    box-shadow: 0px 0px 20px plum;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 50px 10px;
+    text-align: center;
+    margin-top: 60px;
+    line-height: 50px;
+    cursor: pointer;
+    transition: 1s;
+    
+
+
+}
+.three,
+.two {
+    background-color: rgb(182, 120, 120);
+    box-shadow: 0px 0px 20px plum;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 50px 10px;
+    text-align: center;
+    margin-top: 60px;
+    line-height: 50px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.container img,
+.fh,
+.ft {
+    box-shadow: 0px 0px 10px powderblue;
+    height: 300px;
+    border-radius: 30px;
+
+}
+
+.container:hover {
+    transform: scale(1.1);
+    background-color: palevioletred;
+    transition-duration: 2s;
+}
+
+.two:hover {
+    transform: scale(1.1);
+    background-color: palevioletred;
+    transition-duration: 2s;
+}
+
+.three:hover {
+    transform: scale(1.1);
+    background-color: palevioletred;
+    transition-duration: 2s;
+}
+
+.container,
+.two {
+    background-color: rgb(182, 120, 120);
+    box-shadow: 0px 0px 20px plum;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 50px 10px;
+    text-align: center;
+    margin-top: 60px;
+    line-height: 50px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.fh {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+
+.ft {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+
+.two {
+    width: 400px;
+    height: 445px;
+
+}
+
+.tot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.th {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+background-color: rgb(15, 6, 6);
+}
+.ik{
+    padding: 20px;
+
+  
+}
+
+.do{
+    padding: 25px;
+    color: white;
+}
+.jl{
+    border-radius: 30px;
+    
+    padding: 20px;
+    font-size: larger;
+}
+.bh{
+    padding: 15px;
+
+}
+.tf{
+    color: red;
+}
+.jl:hover{
+    color:rgb(122, 8, 23);
+    background-color: rgb(228, 224, 5);
+}
+nav,ul, li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+@media screen and(min-width: 992px){
+    .container{
+        flex: 0 0 30%;
+    }
+}
+nav,.bh{
+    background-color: black;
+}
